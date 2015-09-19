@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Met4 App</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="nombre">Escribe tu nombre:</string>
+    <string name="aceptar">aceptar</string>
+    <string name="title_activity_saludo">Met4 App</string>
+
+
+</resources>

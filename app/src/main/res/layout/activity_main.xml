@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LytContenedor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView android:id="@+id/LblNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre" />
+
+    <EditText android:id="@+id/TxtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+
+    <Button android:id="@+id/BtnAceptar"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:text="@string/aceptar"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:layout_width="1221dp"
+        android:layout_height="275dp"
+        android:id="@+id/imaBienvenido"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/bienvenidos" />
+
+    <ProgressBar
+        android:layout_width="310dp"
+        android:layout_height="155dp"
+        android:id="@+id/progressBar"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
+
